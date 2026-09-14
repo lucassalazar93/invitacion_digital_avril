@@ -207,7 +207,7 @@ export default function App() {
        * Entrada suave de textos.
        */
 
-      gsap.from(".intro-eyebrow, .intro h1, .intro-message, .cta", {
+      gsap.from(".intro h1, .intro-message", {
         y: 22,
         opacity: 0,
         filter: "blur(9px)",
@@ -920,7 +920,7 @@ export default function App() {
      */
 
     tl.to(
-      ".intro-eyebrow, .intro h1, .intro-message, .cta",
+      ".intro h1, .intro-message",
       {
         y: 20,
         opacity: 0,
@@ -1205,8 +1205,6 @@ export default function App() {
         {/* ===================================================
             TEXTO INTRO
         =================================================== */}
-
-        <p className="intro-eyebrow">{cfg.intro.eyebrow}</p>
 
         <h1>El bautizo de {cfg.child.firstName}</h1>
 
