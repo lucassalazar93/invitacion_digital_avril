@@ -207,18 +207,15 @@ export default function App() {
        * Entrada suave de textos.
        */
 
-      gsap.from(
-        ".intro-eyebrow, .intro h1, .intro-message, .cta, .intro > small",
-        {
-          y: 22,
-          opacity: 0,
-          filter: "blur(9px)",
-          duration: 1.1,
-          stagger: 0.1,
-          ease: "power3.out",
-          delay: 0.25,
-        },
-      );
+      gsap.from(".intro-eyebrow, .intro h1, .intro-message, .cta", {
+        y: 22,
+        opacity: 0,
+        filter: "blur(9px)",
+        duration: 1.1,
+        stagger: 0.1,
+        ease: "power3.out",
+        delay: 0.25,
+      });
 
       /*
        * Entrada del sobre.
@@ -923,7 +920,7 @@ export default function App() {
      */
 
     tl.to(
-      ".intro-eyebrow, .intro h1, .intro-message, .cta, .intro > small",
+      ".intro-eyebrow, .intro h1, .intro-message, .cta",
       {
         y: 20,
         opacity: 0,
@@ -1220,8 +1217,6 @@ export default function App() {
 
           <Heart size={17} fill="currentColor" />
         </button>
-
-        <small>Toca para vivir la experiencia</small>
       </section>
 
       {/* =====================================================

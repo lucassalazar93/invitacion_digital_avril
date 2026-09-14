@@ -1741,3 +1741,17 @@ footer a:hover {
     scroll-behavior: auto !important;
   }
 }
+
+/* =========================
+   INTRO - BOTÓN Y AYUDA
+========================= */
+
+.intro .cta {
+  position: relative;
+  z-index: 3;
+  display: inline-flex;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
