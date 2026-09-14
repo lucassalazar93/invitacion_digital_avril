@@ -19,6 +19,8 @@ export const invitationConfig = {
   parents: "Lucas & Nore",
 
   intro: {
+    eyebrow:
+      "Hay personas que hacen especiales nuestros momentos más importantes",
     specialMessage:
       "Si esta invitación llegó hasta ti, es porque ocupas un lugar muy especial en nuestra historia. Queremos compartir este momento íntimo con quienes sentimos realmente cerca del corazón.",
   },
