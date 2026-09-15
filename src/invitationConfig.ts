@@ -35,7 +35,7 @@ export const invitationConfig = {
     ceremonyTime: "9:00 a. m.",
   },
 
-  rsvpDeadline: "22 de noviembre",
+  rsvpDeadline: "22 de septiembre",
 
   locations: {
     church: {
